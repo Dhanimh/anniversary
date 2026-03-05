@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kenangan Kita</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<audio id="bgm" autoplay loop muted>
+    <source src="bergema sampai selamanya_musicaldown.com_1772751325.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    window.addEventListener("click", function() {
+        const audio = document.getElementById("bgm");
+        audio.muted = false;
+        audio.play();
+    }, { once: true });
+</script>
+
+<div class="bg-hearts"></div>
+
+<nav>
+<h2>Our Story</h2>
+
+<ul>
+<li><a href="index.html">Ucapan</a></li>
+<li><a href="gallery.html">Foto</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+
+<h1>Kenangan Kita</h1>
+<p>Momen yang pernah kita lewati bersama.</p>
+
+</section>
+
+<div class="gallery">
+
+<img src="foto1.jpg">
+<img src="foto2.jpg">
+<img src="foto3.jpg">
+<img src="foto4.jpg">
+<img src="foto5.jpg">
+<img src="foto6.jpg">
+<img src="foto7.jpeg">
+<img src="foto8.jpeg">
+
+</div>
+
+<footer>
+Kenangan akan selalu punya tempat di hati
+</footer>
+
+</body>
+</html>
